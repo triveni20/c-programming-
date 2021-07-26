@@ -1,0 +1,41 @@
+#include <stdio.h>
+int main ()
+{
+    int A,B,C;
+    scanf("%d,%d,%d",&A,&B,&C);
+    if(A>B)
+    {
+        if(A>C)
+        {
+            printf("largest number is A=%d\n",A);
+        }
+        else 
+        {
+            printf("largest number is C=%d\n",C);
+        }
+    }
+    if(B>C)
+    {
+        if(B>A)
+        {
+            printf("largest number is B=%d\n",B);
+        }
+        
+    }
+    else 
+    {
+        printf("largest number is C=%d",C);
+        
+    }
+}
+output1 :-12 14 16 
+largest number is A=12
+largest number is C=0
+output2 :-
+10,12,14
+largest number is C=14
+output 3:-
+10,12,14
+largest number is C=14
+
+
