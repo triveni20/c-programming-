@@ -8,21 +8,21 @@ scanf("%d,%d,%d",&A,&B,&C);
   {
     if(A>C)
      {
-      printf("A=%d is the largest");
+      printf("A is the largest");
      }
   }
  if(B>C)
   {
     if(B>A)
      {
-      printf("B=%d is the largest");
+      printf("B is the largest");
      }
   }
  if(C>A)
   {
     if(C>B)
      {
-      printf("A=%d is the largest");
+      printf("C is the largest");
      }
   }
 }
