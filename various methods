@@ -1,0 +1,95 @@
+test1.c:-
+#include <stdio.h>
+int main()
+{
+int A,B,C;
+scanf("%d,%d,%d",&A,&B,&C);
+ if(A>B)
+  {
+    if(A>C)
+     {
+      printf("A=%d is the largest");
+     }
+  }
+ if(B>C)
+  {
+    if(B>A)
+     {
+      printf("B=%d is the largest");
+     }
+  }
+ if(C>A)
+  {
+    if(C>B)
+     {
+      printf("A=%d is the largest");
+     }
+  }
+}
+ output  1:-13,15,7 
+ B is the largest
+ out put 2:- 12,56,78
+  C is the largest
+ out put 3:- 19,11,17
+  A is the largest 
+
+
+test2.c:-
+  
+#include <stdio.h>
+int main()
+{
+int A,B,C;
+sacnf("%d,%d,%d",&A,&B,&C);
+  if((A>B)&&(A>C))
+   {
+ 	  printf("A is largest");
+   }
+  if((B>C)&&(B>A))
+   {
+  	  printf("B is largest");
+   }
+  if((C>A)&&(C>B))
+  {
+  	printf("C is largest");
+  }
+  
+}
+ 
+out put:-
+1).12,11,10
+A is largest
+2).11,12,10
+B is largest
+3).10,11,12
+C is largest
+
+test3.c:-
+#include <stdio.h>
+int main()
+{
+int A,B,C;
+sacnf("%d,%d,%d",&A,&B,&C);
+  if((A>B)&&(A>C))
+   {
+ 	  printf("A is largest");
+   }
+  else if((B>C)&&(B>A))
+   {
+  	  printf("B is largest");
+   }
+  else 
+  {
+  	printf("C is largest");
+  } 
+}
+ 
+
+output:-
+13,12,10
+A is largest
+2).12,13,10
+B is largest
+3).10,12,13
+C is largest
+
