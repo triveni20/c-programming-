@@ -1,29 +1,28 @@
-
+// read three numbers and print largest one //
 #include <stdio.h>
 int main()
-
 {
 int A,B,C;
 scanf("%d,%d,%d",&A,&B,&C);
-if(A>B)
-{
-if(A>C)
-{
-printf(" A is largest ");
-}
-}
-if(B>C)
-{
-if(B>A)
-{
-printf("B is largest ");
-}
-}
-if(C>A)
-{
-if(C>B)
-{
-printf("C is largest ");
-}
-}
+  if(A>B)
+  {
+    if(A>C)
+    {
+    printf(" A is largest ");
+    }
+  }
+  if(B>C)
+  {
+    if(B>A)
+    {
+    printf("B is largest ");
+    }
+  }
+ if(C>A)
+  {
+    if(C>B)
+    {
+    printf("C is largest ");
+    }
+  }
 }
